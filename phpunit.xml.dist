@@ -11,14 +11,14 @@
          syntaxCheck="false"
          bootstrap="./vendor/autoload.php">
     <testsuites>
-        <testsuite name="Tuli Test Suite">
+        <testsuite name="PHP-Security-Scanner Test Suite">
             <directory>./test/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./lib/Tuli/</directory>
+            <directory suffix=".php">./lib/PHPSecurityScanner/</directory>
         </whitelist>
     </filter>
 </phpunit>
