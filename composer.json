@@ -1,0 +1,32 @@
+{
+    "name": "ircmaxell/php-security-scanner",
+    "description": "A Static Security Scanner for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Ferrara",
+            "email": "ircmaxell@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ircmaxell/php-cfg": "dev-master",
+        "ircmaxell/php-types": "dev-master",
+        "ircmaxell/tuli": "dev-master",
+        "cilex/cilex": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7",
+        "fabpot/php-cs-fixer": "1.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PHPSecurityScanner\\": "lib/PHPSecurityScanner/"
+        }
+    },
+    "bin": [
+        "bin/php-security-scanner"
+    ]
+
+}
